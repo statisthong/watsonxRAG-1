@@ -6,7 +6,8 @@ from pydantic import BaseModel, Extra
 from ibm_watson_machine_learning.foundation_models import Model
 
 
-class LangChainInterface(LLM, BaseModel):
+# class LangChainInterface(LLM, BaseModel):
+class LangChainInterface(LLM):
     credentials: Optional[Dict] = None
     model: Optional[str] = None
     params: Optional[Dict] = None
