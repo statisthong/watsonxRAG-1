@@ -1,0 +1,11 @@
+langchain
+streamlit
+#sqlalchemy
+streamlit_chat
+ibm_watson_machine_learning
+typing
+pydantic
+
+#pip3 install flask-sqlalchemy
+#pip install "ibm-generative-ai[langchain]"
+#sentence_transformers
