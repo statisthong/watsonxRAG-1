@@ -8,12 +8,12 @@ import streamlit as st
 from watsonxlangchain import LangChainInterface
 
 creds = {
-    'apikey':'YOUR API KEY HERE', 
+    'apikey':'7JDXm2roHKdgxDtS1bCjmKbbY9jM-dAr8RpEB0HMvWbx', 
     'url': 'https://us-south.ml.cloud.ibm.com'
 }
 llm = LangChainInterface(credentials=creds, model='meta-llama/llama-2-70b-chat', 
 params = {'decoding_method':'sample', 'max_new_tokens':200, 'temperature':0.5}, 
-project_id='YOUR PROJECT ID HERE')
+project_id='a9b59392-efda-46a0-a6b5-0d6af0f60e20')
 
 
 @st.cache_resource
